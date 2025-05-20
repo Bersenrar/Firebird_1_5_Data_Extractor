@@ -13,9 +13,9 @@
 #define mkdir(path, mode) _mkdir(path)  // Windows не использует `mode`
 #endif
 
-#define DB_NAME "C:\\Documents and Settings\\dmytro\\Desktop\\nations 2.fdb"
-#define DB_USER "SYSDBA"
-#define DB_PASSWORD "masterkey"
+#define DB_NAME ""
+#define DB_USER ""
+#define DB_PASSWORD ""
 #define DIR_NAME "script_output"
 
 isc_db_handle db = NULL;
